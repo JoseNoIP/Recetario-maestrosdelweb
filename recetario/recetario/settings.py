@@ -162,3 +162,10 @@ LOGGING = {
         },
     }
 }
+
+#Configuraciones para enviar mensaje usando gmail
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'prueba.desarrollo.software@gmail.com'
+EMAIL_HOST_PASSWORD = 'thisisfordjango'
+EMAIL_PORT = 587
